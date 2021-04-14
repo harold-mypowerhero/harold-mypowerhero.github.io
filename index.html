@@ -21,21 +21,38 @@
     }
 
     img {
-      /* display: block;
       margin-left: auto;
       margin-right: auto;
-      max-width: 800px;
-      min-width: 200px; */
       height: 100%;
       width: 100%;
+    }
+
+    .img-logo {
+      max-width: 500px;
+      min-width: 100px;
+    }
+
+    .img-name {
+      margin-top: 1.2em;
       max-width: 800px;
-      min-width: 200px;
+      min-width: 150px;
+    }
+
+    .content {
+      display: block;
+      text-align: center;
     }
   </style>
 </head>
 
 <body>
   <section>
-    <img src="./imgs/home-page-hero-image.png" alt="MyPowerHero">
+    <div class="content">
+      <!-- <img src="./imgs/home-page-hero-image.png" alt="MyPowerHero"> -->
+      <img class="img-logo" src="./imgs/logo-only-f2f2f2-800x800.png" alt="MyPowerHero">
+    </div>
+    <div class="content">
+      <img class="img-name" src="./imgs/name-only-f2f2f2-1000x148.png" alt="MyPowerHero">
+    </div>
   </section>
 </body>
